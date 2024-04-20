@@ -81,31 +81,67 @@ main {
   overflow-y: scroll;
 }
 
+article {
+  padding-top: 10px;
+}
+
 /*links*/
+
 a {
-  color: rgb(50, 166, 199);
+  color: rgb(0, 0, 0);
 }
 
 a:hover {
-  color:rgb(41, 197, 147)
+  color:rgb(0, 0, 0);
+  text-decoration: underline;
 }
 
 a:visited {
-  color: blueviolet;
+  color: rgb(25, 101, 234);
 }
 
 a[href^="http"] {
-  background: url(/Personal-site/images/external-link-52.png) no-repeat 100% 0;
-  background-size: 14px;
-  padding-right: 18px;
+  background: url(/images/external-link-52.png) no-repeat 100% 0;
+  background-size: 1.1rem;
+  padding-right: 30px;
+  color: black;
+  text-decoration: none;
+  line-height: 2rem;
 }
 
 a[href^="documents"] {
-  background: url(/Personal-site/images/icons8-download-24.png) no-repeat 100% 0;
+  background: url(/images/icons8-download-24.png) no-repeat 100% 0;
   background-size: 14px;
-  padding-right: 15px;
+  padding-right: 20px;
+  text-decoration: none;
 }
 
+a[href^="documents"]:hover {
+  text-decoration: underline;
+}
+
+/*list*/
+#list {
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
+}
+
+#socials {
+  font-size: 1.1em;
+  list-style: none;
+}
+
+#socials li {
+  margin-right: 30px;
+  border-bottom: 1px solid rgb(220, 220, 220);
+  padding-bottom: 5px;
+  padding-top: 3px;
+}
+
+#socials li:last-child {
+  border-bottom: none;
+}
 
 
 /*footer*/
