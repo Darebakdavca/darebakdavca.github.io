@@ -74,12 +74,12 @@ header a:link, header a:visited {
 
 /*main*/
 main {
-  display: block;
   padding-left: 20%;
   padding-right: 20%;
   height: calc(100vh - 180px);
   overflow-y: scroll;
 }
+
 
 article {
   padding-top: 10px;
